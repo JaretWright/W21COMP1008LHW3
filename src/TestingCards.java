@@ -28,5 +28,6 @@ public class TestingCards {
 
         System.out.println("\nCreating a deck of cards");
         DeckOfCards deck1 = new DeckOfCards();
+        System.out.println(deck1);
     }
 }

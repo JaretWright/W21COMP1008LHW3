@@ -20,12 +20,12 @@ public class DeckOfCards {
 
         for (int i=0; i<suits.size(); i++)
         {
-            System.out.println(suits.get(i));
             //   datatype in each   variable  : this is the list to go over
             //   position of list   name
             for (String             faceName  : faceNames)
             {
-                System.out.println(faceName + " of " +suits.get(i));
+                Card newCard = new Card(faceName, suits.get(i));
+                deck.add(newCard);
             }
         }
     }
