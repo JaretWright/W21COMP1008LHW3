@@ -18,5 +18,15 @@ public class TestingCards {
 
         myHand.addAll(Arrays.asList(card3, card4, card5));
         System.out.println(myHand);
+
+        //remove by position
+        myHand.remove(0);
+        System.out.println(myHand);
+
+        //the card still exists in memory
+        System.out.println(card1);
+
+        System.out.println("\nCreating a deck of cards");
+        DeckOfCards deck1 = new DeckOfCards();
     }
 }
