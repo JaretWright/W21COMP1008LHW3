@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class DeckOfCards {
@@ -40,5 +41,13 @@ public class DeckOfCards {
             return null;
         else
             return deck.remove(0);
+    }
+
+    /**
+     * This method will shuffle the Card objects into a random order
+     */
+    public void shuffle()
+    {
+        Collections.shuffle(deck);
     }
 }

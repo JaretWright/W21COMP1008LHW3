@@ -29,5 +29,10 @@ public class TestingCards {
         System.out.println("\nCreating a deck of cards");
         DeckOfCards deck1 = new DeckOfCards();
         System.out.println(deck1);
+
+        //deal out the first 5 cards
+        System.out.println("\nDisplaying the first 5 cards dealt from the deck");
+        for (int i=1; i<=5; i++)
+            System.out.printf("Card %d : %s%n",i,deck1.dealTopCard());
     }
 }
