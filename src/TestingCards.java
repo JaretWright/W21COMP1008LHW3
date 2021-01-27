@@ -30,6 +30,8 @@ public class TestingCards {
         DeckOfCards deck1 = new DeckOfCards();
         System.out.println(deck1);
 
+        deck1.shuffle();
+
         //deal out the first 5 cards
         System.out.println("\nDisplaying the first 5 cards dealt from the deck");
         for (int i=1; i<=5; i++)
